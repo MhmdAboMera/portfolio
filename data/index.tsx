@@ -26,8 +26,7 @@ import {
 } from "react-icons/si";
 import { z } from "zod";
 
-export const cvUrl =
-  "https://drive.google.com/file/d/1I5AsSB1T-l2O_a8YC5vSdwZ_ipJKMdc4/view?usp=drivesdk&usp=embed_facebook&usp=embed_facebook";
+export const cvUrl = "https://drive.google.com/file/d/1I5AsSB1T-l2O_a8YC5vSdwZ_ipJKMdc4/view";
 
 export const reviews = [
   {
@@ -92,6 +91,33 @@ export const projects = [
   },
   {
     id: 4,
+    title: "wan-is",
+    des: "E-commerce website and admin dashboard. Developed using HTML5, CSS3, JavaScript, Bootstrap5, PHP, and MySQL.",
+    img: "/wan-is.PNG",
+    iconsList: ["/html.svg", "/css.svg", "/js.svg", "/bootstrap-4.svg", "/php-svgrepo-com.svg"],
+    link: "https://wan-is.com/ar",
+    sourceCode: "https://github.com/MhmdAboMera",
+  },
+  {
+    id: 5,
+    title: "Gholam Hassan Baidallah Company",
+    des: "'Ghulam Hassan Baid Allah Contracting Company' is a leading company in the field of construction, contracting, and maintenance, with its headquarters in the Kingdom of Saudi Arabia. The company was established on May 28, 1431 AH and has achieved numerous remarkable successes in the construction industry, as well as in management and support services, transportation, and storage sectors. Thanks to these accomplishments, Ghulam Hassan Baid Allah Contracting Company ranks among the top companies in its field. website and admin dashboard. Developed using HTML5, CSS3, JavaScript, Bootstrap5, PHP, and MySQL.",
+    img: "/gholam.PNG",
+    iconsList: ["/html.svg", "/css.svg", "/js.svg", "/bootstrap-4.svg", "/php-svgrepo-com.svg"],
+    link: "https://ghb-co.com/",
+    sourceCode: "https://github.com/MhmdAboMera",
+  },
+  {
+    id: 6,
+    title: "Citysquares",
+    des: "Sahat Al-Madina specializes in company formation, public relations, and corporate communication, with over 15 years of experience and branches in Oman, the UAE, and Egypt. website and admin dashboard. Developed using HTML5, CSS3, JavaScript, Bootstrap5, PHP, and MySQL.",
+    img: "/Citysquares.PNG",
+    iconsList: ["/html.svg", "/css.svg", "/js.svg", "/bootstrap-4.svg", "/php-svgrepo-com.svg"],
+    link: "https://citysquares.com.eg/ar",
+    sourceCode: "https://github.com/MhmdAboMera",
+  },
+  {
+    id: 7,
     title: "Higher Institute of Management and Information Technology in Kafr El-Sheikh",
     des: "Platform for viewing staff data, institute information, and a blog for students. Developed using React, React Router, Context API, Axios, Redux, i18next, Bootstrap, React Helmet, React Query, React Toastify, React Share, Swiper, Recharts, React Floating WhatsApp, FullCalendar, and AOS.",
     img: "/himit.png",
@@ -100,65 +126,83 @@ export const projects = [
     sourceCode: "https://github.com/MhmdAboMera",
   },
   {
-    id: 6,
+    id: 8,
     title: "Najez Soft - Software Solutions Company",
     des: "Official website for Najez Soft, a software solutions company offering various services and products. Developed using modern web technologies including React, React Router, Redux Toolkit, Axios, Bootstrap, and React Helmet for SEO optimization.",
     img: "/najez.png",
     iconsList: ["/react.svg", "/js.svg", "/bootstrap-4.svg", "/redux.svg"],
     link: "https://najezsoft.com/",
     sourceCode: "https://github.com/MhmdAboMera",
-  }
-,  
+  },
   {
-    id: 6,
-    title: "Grocery-App",
-    des: "E-commerce website and admin dashboard. Developed using React, React Router, Axios, Redux Toolkit, and Bootstrap.",
-    img: "/grocery-app.png",
-    iconsList: ["/react.svg", "/js.svg", "/bootstrap-4.svg", "/redux.svg"],
-    link: "https://grocery-hxgr.vercel.app/",
+    id: 9,
+    title: "Noor Control",
+    des: "E-commerce website and admin dashboard. Developed using HTML5, CSS3, JavaScript, Bootstrap5, PHP, and MySQL.",
+    img: "/noorcontrol.PNG",
+    iconsList: ["/html.svg", "/css.svg", "/js.svg", "/bootstrap-4.svg", "/php-svgrepo-com.svg"],
+    link: "https://noorcontrol.com/ar",
     sourceCode: "https://github.com/MhmdAboMera",
   },
   {
-    id: 7,
-    title: "LinkedIn-Clone",
-    des: "LinkedIn website clone with the ability to post images, text, and video. Developed using React, React Router, Redux Toolkit, Bootstrap, and Firebase.",
-    img: "/linkedin-clone.png",
-    iconsList: ["/react.svg", "/js.svg", "/bootstrap-4.svg", "/redux.svg", "/firebase.svg"],
-    link: "https://linkedin-gamma-dun.vercel.app/",
+    id: 10,
+    title: "syatco",
+    des: "E-commerce website and admin dashboard. Developed using HTML5, CSS3, JavaScript, Bootstrap5, PHP, and MySQL.",
+    img: "/syatco.PNG",
+    iconsList: ["/html.svg", "/css.svg", "/js.svg", "/bootstrap-4.svg", "/php-svgrepo-com.svg"],
+    link: "https://syatco.com/ar",
     sourceCode: "https://github.com/MhmdAboMera",
   },
   {
-    id: 8,
-    title: "Netflix-Clone",
-    des: "Netflix website clone showcasing Trending, Popular, Top Rated, and Upcoming movies. Developed using React, React Router, Redux, Bootstrap, and Firebase.",
-    img: "/netflix-clone.png",
-    iconsList: ["/react.svg", "/js.svg", "/bootstrap-4.svg", "/redux.svg", "/firebase.svg"],
-    link: "https://netflex-536e3.web.app/",
+    id: 11,
+    title: "asiaf",
+    des: "E-commerce website and admin dashboard. Developed using HTML5, CSS3, JavaScript, Bootstrap5, PHP, and MySQL.",
+    img: "/asiaf.PNG",
+    iconsList: ["/html.svg", "/css.svg", "/js.svg", "/bootstrap-4.svg", "/php-svgrepo-com.svg"],
+    link: "https://www.asiaf.com.sa/ar",
     sourceCode: "https://github.com/MhmdAboMera",
   },
   // {
-  //   id: 8,
-  //   title: "CRUD-APP",
-  //   des: "Website for creating, reading, updating, and deleting data. Developed using React, React Router, Redux, and Bootstrap.",
-  //   img: "/crud-app.png",
+  //   id: 9,
+  //   title: "Grocery-App",
+  //   des: "E-commerce website and admin dashboard. Developed using React, React Router, Axios, Redux Toolkit, and Bootstrap.",
+  //   img: "/grocery-app.png",
   //   iconsList: ["/react.svg", "/js.svg", "/bootstrap-4.svg", "/redux.svg"],
-  //   link: "",
+  //   link: "https://grocery-hxgr.vercel.app/",
   //   sourceCode: "https://github.com/MhmdAboMera",
   // },
-  {
-    id: 9,
-    title: "Plants-APP",
-    des: "Website for plants. Developed using Bootstrap4, HTML5, CSS3, and OwlCarousel.",
-    img: "/plants-app.png",
-    iconsList: ["/html.svg", "/css.svg", "/js.svg", "/bootstrap-4.svg"],
-    link: "",
-    sourceCode: "https://github.com/MhmdAboMera",
-  },
+  // {
+  //   id: 10,
+  //   title: "LinkedIn-Clone",
+  //   des: "LinkedIn website clone with the ability to post images, text, and video. Developed using React, React Router, Redux Toolkit, Bootstrap, and Firebase.",
+  //   img: "/linkedin-clone.png",
+  //   iconsList: ["/react.svg", "/js.svg", "/bootstrap-4.svg", "/redux.svg", "/firebase.svg"],
+  //   link: "https://linkedin-gamma-dun.vercel.app/",
+  //   sourceCode: "https://github.com/MhmdAboMera",
+  // },
+  // {
+  //   id: 11,
+  //   title: "Netflix-Clone",
+  //   des: "Netflix website clone showcasing Trending, Popular, Top Rated, and Upcoming movies. Developed using React, React Router, Redux, Bootstrap, and Firebase.",
+  //   img: "/netflix-clone.png",
+  //   iconsList: ["/react.svg", "/js.svg", "/bootstrap-4.svg", "/redux.svg", "/firebase.svg"],
+  //   link: "https://netflex-536e3.web.app/",
+  //   sourceCode: "https://github.com/MhmdAboMera",
+  // },
+  // {
+  //   id: 12,
+  //   title: "Plants-APP",
+  //   des: "Website for plants. Developed using Bootstrap4, HTML5, CSS3, and OwlCarousel.",
+  //   img: "/plants-app.png",
+  //   iconsList: ["/html.svg", "/css.svg", "/js.svg", "/bootstrap-4.svg"],
+  //   link: "#",
+  //   sourceCode: "https://github.com/MhmdAboMera",
+  // },
 ];
+
 const date = new Date();
 const yearsOfExperience = date.getFullYear() - 2023;
-const projectsCompleted = 15;
-const clients = 5;
+const projectsCompleted = projects.length;
+const clients = reviews.length;
 
 export const aboutData = [
   {
@@ -167,18 +211,17 @@ export const aboutData = [
   },
   {
     number: projectsCompleted,
-    text: "Project Completed",
+    text: "Projects Completed",
   },
   {
     number: clients,
-    text: "Clients",
+    text: "Happy Clients",
   },
 ];
 
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -196,7 +239,7 @@ export const skills = [
   { id: 11, icon: <SiFramer />, text: "Framer Motion" },
   { id: 12, icon: <SiRedux />, text: "Redux Toolkit" },
   { id: 13, icon: <SiAxios />, text: "Axios" },
-  { id: 14, icon: <FaGitAlt />, text: "Git & Github" },
+  { id: 14, icon: <FaGitAlt />, text: "Git & GitHub" },
   { id: 15, icon: <AiOutlineApi />, text: "REST APIs" },
   { id: 16, icon: <SiGraphql />, text: "GraphQL" },
   { id: 17, icon: <FaSearch />, text: "SEO Best Practices" },
@@ -213,7 +256,7 @@ export const socialMedia = [
   },
   {
     id: 2,
-    link: "https://www.linkedin.com/in/mohamed-abo-mera-79b963259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    link: "https://www.linkedin.com/in/mohamed-abo-mera-79b963259",
     icon: <FaLinkedin />,
   },
   {
@@ -228,7 +271,7 @@ export const socialMedia = [
   },
   {
     id: 5,
-    link: "https://www.instagram.com/mhmd_abomera?igsh=MXhsZnRndnFoNHZtaw==",
+    link: "https://www.instagram.com/mhmd_abomera",
     icon: <FaInstagram />,
   },
 ];
